@@ -1,0 +1,33 @@
+name: 🐍 Red Snake — Contribution Animation
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 🐍 Generate the Red Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: santoshkumarvvv
+          outputs: |
+            dist/github-snake.svg?color_snake=#ff2d2d&color_dots=#0d1117,#2d0a0a,#4e0d0d,#8a1010,#d11212
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ff2d2d&color_dots=#0d1117,#2d0a0a,#4e0d0d,#8a1010,#d11212
+            dist/github-snake.gif?color_snake=#ff2d2d&color_dots=#0d1117,#2d0a0a,#4e0d0d,#8a1010,#d11212
+
+      - name: 🚀 Deploy snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
