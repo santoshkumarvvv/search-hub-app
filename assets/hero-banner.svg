@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#050507" />
+      <stop offset="50%" stopColor="#0F172A" />
+      <stop offset="100%" stopColor="#07090E" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#2563EB" />
+      <stop offset="100%" stopColor="#38BDF8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)" stroke="#1E293B" strokeWidth="2" />
+  <rect x="60" y="0" width="260" height="3" fill="url(#accent)" />
+  <text x="60" y="64" fill="#38BDF8" fontFamily="JetBrains Mono, monospace" fontSize="13" fontWeight="600" letterSpacing="2">
+    MULTI-CLOUD EDGE &amp; CONTAINER CLUSTER · @SANTOSHKUMARVVV
+  </text>
+  <text x="60" y="128" fill="#F8FAFC" fontFamily="system-ui, -apple-system, sans-serif" fontSize="46" fontWeight="800">
+    Search Hub Cloud Node
+  </text>
+  <text x="60" y="172" fill="#94A3B8" fontFamily="system-ui, -apple-system, sans-serif" fontSize="18">
+    Fault-tolerant media &amp; catalog aggregation engine orchestrated across Vercel Edge and Render clusters.
+  </text>
+  <g transform="translate(60, 212)">
+    <rect width="185" height="44" rx="10" fill="#090D16" stroke="#1E293B" strokeWidth="1.5" />
+    <text x="16" y="18" fill="#64748B" fontFamily="JetBrains Mono, monospace" fontSize="10">COLD START OVERHEAD</text>
+    <text x="16" y="34" fill="#38BDF8" fontFamily="JetBrains Mono, monospace" fontSize="13" fontWeight="700">110 ms (Edge PoP)</text>
+  </g>
+  <g transform="translate(261, 212)">
+    <rect width="185" height="44" rx="10" fill="#090D16" stroke="#1E293B" strokeWidth="1.5" />
+    <text x="16" y="18" fill="#64748B" fontFamily="JetBrains Mono, monospace" fontSize="10">UPTIME RELIABILITY</text>
+    <text x="16" y="34" fill="#F8FAFC" fontFamily="JetBrains Mono, monospace" fontSize="13" fontWeight="700">99.95% Dual-SLA</text>
+  </g>
+  <g transform="translate(462, 212)">
+    <rect width="205" height="44" rx="10" fill="#090D16" stroke="#1E293B" strokeWidth="1.5" />
+    <text x="16" y="18" fill="#64748B" fontFamily="JetBrains Mono, monospace" fontSize="10">SECURITY HARDENING</text>
+    <text x="16" y="34" fill="#F8FAFC" fontFamily="JetBrains Mono, monospace" fontSize="13" fontWeight="700">0 Audit Vulnerabilities</text>
+  </g>
+</svg>

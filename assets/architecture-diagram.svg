@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="100%">
+  <rect width="1200" height="220" rx="16" fill="#07090E" stroke="#1E293B" strokeWidth="1.5" />
+  <g transform="translate(30, 35)">
+    <rect width="245" height="150" rx="12" fill="#0B0F19" stroke="#1E293B" strokeWidth="1.5" />
+    <text x="20" y="34" fill="#38BDF8" fontFamily="JetBrains Mono, monospace" fontSize="11" fontWeight="600">01 · UPSTREAM ADAPTERS</text>
+    <text x="20" y="64" fill="#F8FAFC" fontFamily="system-ui, sans-serif" fontSize="18" fontWeight="700">Jikan + TMDb APIs</text>
+    <text x="20" y="92" fill="#94A3B8" fontFamily="system-ui, sans-serif" fontSize="13">Isolated provider calls with</text>
+    <text x="20" y="112" fill="#94A3B8" fontFamily="system-ui, sans-serif" fontSize="13">automatic fallback seed store</text>
+  </g>
+  <path d="M 275 110 L 330 110" stroke="#38BDF8" strokeWidth="2" strokeDasharray="4 4" />
+  <g transform="translate(330, 35)">
+    <rect width="265" height="150" rx="12" fill="#0F172A" stroke="#38BDF8" strokeWidth="2" />
+    <text x="20" y="34" fill="#38BDF8" fontFamily="JetBrains Mono, monospace" fontSize="11" fontWeight="600">02 · NORMALIZATION CORE</text>
+    <text x="20" y="64" fill="#FFFFFF" fontFamily="system-ui, sans-serif" fontSize="18" fontWeight="700">lib/catalog.ts</text>
+    <text x="20" y="92" fill="#94A3B8" fontFamily="system-ui, sans-serif" fontSize="13">De-duplication by kind:id,</text>
+    <text x="20" y="112" fill="#94A3B8" fontFamily="system-ui, sans-serif" fontSize="13">interleaving &amp; SFW filtering</text>
+  </g>
+  <path d="M 595 110 L 650 110" stroke="#38BDF8" strokeWidth="2" strokeDasharray="4 4" />
+  <g transform="translate(650, 35)">
+    <rect width="245" height="150" rx="12" fill="#0B0F19" stroke="#1E293B" strokeWidth="1.5" />
+    <text x="20" y="34" fill="#38BDF8" fontFamily="JetBrains Mono, monospace" fontSize="11" fontWeight="600">03 · ROUTE SECURITY</text>
+    <text x="20" y="64" fill="#F8FAFC" fontFamily="system-ui, sans-serif" fontSize="18" fontWeight="700">Strict Route Guards</text>
+    <text x="20" y="92" fill="#94A3B8" fontFamily="system-ui, sans-serif" fontSize="13">Regex UID validation,</text>
+    <text x="20" y="112" fill="#94A3B8" fontFamily="system-ui, sans-serif" fontSize="13">clamped pagination &amp; CSP</text>
+  </g>
+  <path d="M 895 110 L 945 110" stroke="#38BDF8" strokeWidth="2" strokeDasharray="4 4" />
+  <g transform="translate(945, 35)">
+    <rect width="225" height="150" rx="12" fill="#0B0F19" stroke="#1E293B" strokeWidth="1.5" />
+    <text x="20" y="34" fill="#38BDF8" fontFamily="JetBrains Mono, monospace" fontSize="11" fontWeight="600">04 · CLOUD IAC</text>
+    <text x="20" y="64" fill="#F8FAFC" fontFamily="system-ui, sans-serif" fontSize="18" fontWeight="700">Vercel + Render</text>
+    <text x="20" y="92" fill="#94A3B8" fontFamily="system-ui, sans-serif" fontSize="13">/api/health probe &amp;</text>
+    <text x="20" y="112" fill="#94A3B8" fontFamily="system-ui, sans-serif" fontSize="13">zero-downtime containers</text>
+  </g>
+</svg>
