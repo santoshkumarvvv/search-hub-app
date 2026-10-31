@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    name: Unit & Resilience Matrix (Node ${{ matrix.node-version }})
+    name: Resilience Matrix (Node ${{ matrix.node-version }})
     runs-on: ubuntu-latest
     strategy:
       matrix:
