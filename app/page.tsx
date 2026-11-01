@@ -14,12 +14,11 @@ function one(v: string | string[] | undefined): string {
 }
 
 export default async function HomePage({
-  searchParams
+  searchParams,
 }: {
   searchParams: Promise<Search>;
 }) {
   const sp = await searchParams;
-
   const q = one(sp.q).slice(0, 120).trim();
   const rawKind = one(sp.kind) || 'all';
   const rawSort = one(sp.sort) || 'popularity';
@@ -28,19 +27,22 @@ export default async function HomePage({
   const kind = (KINDS.has(rawKind) ? rawKind : 'all') as MediaKind | 'all';
   const sort = (SORTS.has(rawSort) ? rawSort : 'popularity') as SortKey;
 
+  const tmdbConfigured = Boolean(process.env.TMDB_API_KEY);
+
   // Server-render the first page so the grid and its links exist in the HTML.
   const initial = await browse({
     q: q || undefined,
     kind,
     genre: genre !== 'all' ? genre : undefined,
     sort,
-    page: 1
+    page: 1,
   });
 
   return (
     <Browser
       initial={initial}
       initialQuery={{ q, kind, genre, sort }}
+      tmdbConfigured={tmdbConfigured}
     />
   );
 }

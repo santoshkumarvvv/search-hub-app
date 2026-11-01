@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/santoshkumarvvv/search-hub-app/actions">
-    <img src="https://img.shields.io/badge/CLOUD_CLUSTER-VERIFIED-2563EB?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Status" />
+    <img src="https://img.shields.io/badge/VERSION-2.4.0-2563EB?style=for-the-badge<img src="https://img.shields.io/badge/CLOUD_CLUSTER-VERIFIED-2563EB?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Status" />logo=github<img src="https://img.shields.io/badge/CLOUD_CLUSTER-VERIFIED-2563EB?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Status" />logoColor=white" alt="Version 2.4.0" />
   </a>
   &nbsp;
   <a href="https://vercel.com">

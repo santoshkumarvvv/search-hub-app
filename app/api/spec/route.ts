@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { APP_VERSION } from '@/lib/version';
 
 export const runtime = 'nodejs';
 
@@ -7,7 +8,7 @@ export async function GET() {
     openapi: '3.1.0',
     info: {
       title: 'Search Hub Cloud Node API',
-      version: '2.4.0',
+      version: APP_VERSION,
       description: 'High-availability media catalog and edge aggregation gateway by Santosh Kumar (@santoshkumarvvv).',
       contact: {
         name: 'Santosh Kumar',
